@@ -15,6 +15,7 @@ plugins:
 paginate: 5
 paginate_path: "/blog/page/:num"
 
+
 exclude:
   - _data/images.yml
 
@@ -27,9 +28,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
-  works:
+  projectes:
     output: true
-    permalink: /work/:slug
+    permalink: /projectes/:slug
 
 # Pages Path
 defaults:
@@ -46,12 +47,12 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "posts"
   - scope:
       path: ""
-      type: "works"
+      type: "projectes"
     values:
-      layout: "work"
+      layout: "projecte"
 
 sass:
   sass_dir: _sass

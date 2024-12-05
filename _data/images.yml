@@ -1,20 +1,66 @@
 ---
-- images/02-Cotxes/IMG20241030114245.jpg
-- images/02-Cotxes/IMG20241030120800.jpg
-- images/02-Cotxes/IMG20241030121000.jpg
-- images/02-Cotxes/IMG20241030123908.jpg
-- images/02-Cotxes/IMG20241030152548.jpg
-- images/02-Cotxes/IMG20241030153003.jpg
-- images/02-Cotxes/IMG20241101130347.jpg
-- images/02-Cotxes/IMG20241102105357.jpg
-- images/02-Cotxes/IMG20241102113208.jpg
-- images/02-Cotxes/IMG20241102113213.jpg
-- images/02-Cotxes/IMG20241102120853.jpg
-- images/02-Cotxes/IMG20241102121306.jpg
-- images/02-Cotxes/IMG20241102121838.jpg
-- images/02-Cotxes/IMG20241102122541.jpg
-- images/02-Cotxes/IMG20241102131936.jpg
-- images/02-Cotxes/IMG20241102132014.jpg
-- images/02-Cotxes/IMG20241102132015.jpg
-- images/02-Cotxes/IMG20241102145255.jpg
-- images/02-Cotxes/camio-bolcat.jpg
+01-Plantes:
+  images:
+  - images/01-Plantes/flor-lazard.jpg
+02-Cotxes:
+  images:
+  - images/02-Cotxes/IMG-20220226-WA0004.jpg
+  - images/02-Cotxes/IMG-20231029-WA0007.jpg
+  - images/02-Cotxes/IMG-20241202-WA0002.jpg
+  - images/02-Cotxes/IMG-20241202-WA0003.jpg
+  - images/02-Cotxes/IMG-20241202-WA0004.jpg
+  - images/02-Cotxes/IMG-20241202-WA0005.jpg
+  - images/02-Cotxes/IMG-20241202-WA0006.jpg
+  - images/02-Cotxes/IMG20241101130347.jpg
+  - images/02-Cotxes/IMG20241102105357.jpg
+  - images/02-Cotxes/IMG20241102113208.jpg
+  - images/02-Cotxes/IMG20241102113213.jpg
+  - images/02-Cotxes/IMG20241102120853.jpg
+  - images/02-Cotxes/IMG20241102121306.jpg
+  - images/02-Cotxes/IMG20241102121838.jpg
+  - images/02-Cotxes/IMG20241102122541.jpg
+  - images/02-Cotxes/camio-bolcat.jpg
+  motos:
+  - images/02-Cotxes/motos/IMG20241102131936.jpg
+  - images/02-Cotxes/motos/IMG20241102132014.jpg
+  - images/02-Cotxes/motos/IMG20241102132015.jpg
+  - images/02-Cotxes/motos/IMG20241102145255.jpg
+  subfolder-A:
+  - images/02-Cotxes/subfolder-A/IMG20241030114245.jpg
+  - images/02-Cotxes/subfolder-A/IMG20241030120800.jpg
+  - images/02-Cotxes/subfolder-A/IMG20241030121000.jpg
+  - images/02-Cotxes/subfolder-A/IMG20241030123908.jpg
+  - images/02-Cotxes/subfolder-A/IMG20241030152548.jpg
+  - images/02-Cotxes/subfolder-A/IMG20241030153003.jpg
+03-Casetes:
+  images:
+  - images/03-Casetes/IMG20241030120144.jpg
+  - images/03-Casetes/IMG20241030120148.jpg
+  - images/03-Casetes/IMG20241030152612.jpg
+  - images/03-Casetes/IMG20241030152618.jpg
+  - images/03-Casetes/IMG20241030155050.jpg
+  - images/03-Casetes/IMG20241030155103.jpg
+  - images/03-Casetes/IMG20241030155611.jpg
+  - images/03-Casetes/IMG20241102092328.jpg
+  - images/03-Casetes/IMG20241102092444.jpg
+  - images/03-Casetes/IMG20241102113832.jpg
+  - images/03-Casetes/casetes-peul.jpg
+04-Mercats:
+  images:
+  - images/04-Mercats/mercat.jpg
+05-Menjar:
+  images:
+  - images/05-Menjar/IMG20241101090910.jpg
+  - images/05-Menjar/IMG20241101090925.jpg
+  - images/05-Menjar/IMG20241101091013.jpg
+  - images/05-Menjar/IMG20241101091928.jpg
+  - images/05-Menjar/IMG20241101092245.jpg
+  - images/05-Menjar/IMG20241101092355.jpg
+  - images/05-Menjar/IMG20241101093911.jpg
+  - images/05-Menjar/IMG20241101123636.jpg
+  - images/05-Menjar/IMG20241102114612.jpg
+  - images/05-Menjar/IMG20241201174619.jpg
+  - images/05-Menjar/menjar.jpg
+06-Paisatges:
+  images:
+  - images/06-Paisatges/paisatge.jpg

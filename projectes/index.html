@@ -1,0 +1,39 @@
+---
+layout: default
+title: Els meus projectes
+description: Aquestes són algunes de les coses que m'agraden de Benín.
+---
+
+<div class="container">
+  <div class="page-section-head">
+    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.projectes.projectes__title }}{% endif %}</h1>
+    {% if page.description %}
+      <p class="page-description">{{ page.description }}</p>
+    {% else site.data.settings.projectes.projectes__description %}
+      <p class="page-description">{{ site.data.settings.projectes.projectes__description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="work-page container animate">
+  <div class="row">
+    {% for projecte in site.projectes reversed %}
+      <article class="work col col-4 col-d-6 col-t-12">
+        <div class="work__content">
+          <a href="{{ projecte.url }}" class="work__image">
+            <img class="lazy" data-src="{{ projecte.image }}" alt="{{ projecte.title }}">
+          </a>
+          <div class="work__info">
+            {% if work.category %}
+            <div class="work__category">{{ projecte.category }}</div>
+            {% endif %}
+            <h3 class="work__title"><a href="{{ projecte.url }}">{{ projecte.title }}</a></h3>
+            {% if projecte.description %}
+            <p class="work__description">{{ projecte.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>

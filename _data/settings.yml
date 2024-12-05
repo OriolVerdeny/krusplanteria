@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Akio
+title: Abel
 logo: /images/logo-krusplanteria.png # You can add own logo. For example '/images/logo.png'.
-description: Creative Portfolio Theme for Jekyll.
+description: Mira que faig.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -13,17 +13,19 @@ menu__settings:
     - title: 'Inici'
       url: '/'
     - title: 'Qui sóc'
-      url: '/about/'
+      url: '/quisoc/'
     - title: 'Projectes'
-      url: '/work/'
+      url: '/projectes/'
     - title: 'Articles'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+    - title: 'Contacte'
+      url: '/contacte/'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/contact/'
+    #     title: 'Contact'
+    #   - url: '/elements/'
+    #     title: 'Elements'
 
 
 #-------------------------------
@@ -96,10 +98,10 @@ mailchimp:
 
 #-------------------------------
 # Work Settings
-work:
+projectes:
   enable: true
-  work__title: Projectes
-  work__description: Aquestes són algunes de les coses que m'agraden de Benín.
+  projectes__title: Projectes
+  projectes__description: Aquestes són algunes de les coses que m'agraden de Benín.
 
 
 #-------------------------------
@@ -131,7 +133,7 @@ blog:
   enable: true
 
 blog__settings:
-  blog__title: Els meus articles
+  blog__title: Writing
   blog__description:
 
 

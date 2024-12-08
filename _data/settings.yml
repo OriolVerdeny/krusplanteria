@@ -133,8 +133,8 @@ blog:
   enable: true
 
 blog__settings:
-  blog__title: Writing
-  blog__description:
+  blog__title: Els meus articles
+  blog__description: Aquí parlo d'algunes coses que m'agraden. Potser són coses de Benín o d'algun altre lloc.
 
 
 #-------------------------------

@@ -2,7 +2,7 @@
 layout: post
 title: L'escola de Benín
 description: Hymnals are books with collections of musical hymns that can typically be found in churches. Prayerbooks or missals are books that contain written prayers and are commonly carried by monks, nuns, and other devoted followers or clergy.
-date: 2022-10-14 15:01:35 +0300
+date: 2024-12-05 15:01:35 +0300
 image: '/images/post-1.jpg'
 image_caption: 'Photo by [Ben Weber](https://unsplash.com/photos/btK4Ja_4W6g) on [Unsplash](https://unsplash.com/)'
 tags: [workflow, notes, study]

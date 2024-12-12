@@ -12,7 +12,9 @@ image_caption: 'Photo by [Freepik](https://www.freepik.com/)'
 Mireu les fotos dels cotxes i motos i camions de Benín. Són molt boniques.
 
 
-{% assign subfolder_images = site.data.images["02-Cotxes"]["images"] %}
+Aquí hi han els cotxes. Alguns van molt carregats.
+
+{% assign subfolder_images = site.data.images["02-Cotxes"]["cotxes"] %}
 
 <div class="gallery-box">
   <div class="gallery">
@@ -26,9 +28,21 @@ Mireu les fotos dels cotxes i motos i camions de Benín. Són molt boniques.
 
 I aquestes són les fotos de les motos:
 
-
-
 {% assign subfolder_images = site.data.images["02-Cotxes"]["motos"] %}
+
+<div class="gallery-box">
+  <div class="gallery">
+    {% for image in subfolder_images %}
+      <img src="{{ image | relative_url }}" loading="lazy" alt="Project Image">
+    {% endfor %}
+  </div>
+  <em>Les fotos les ha fet pare</em>
+</div>
+
+
+Aquests són alguns dels camions de Benín, que també van molt carregats.
+
+{% assign subfolder_images = site.data.images["02-Cotxes"]["camions"] %}
 
 <div class="gallery-box">
   <div class="gallery">
